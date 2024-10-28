@@ -1,0 +1,72 @@
+/* update */
+.account-content-wrapper a,
+.edit-form a {
+  text-decoration: none;
+}
+
+.transaction-button {
+  background-color: rgb(121, 89, 237);
+  border: none;
+  border-radius: 5px;
+}
+
+.update-title {
+  color: rgb(74, 74, 74);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#root > main > div > div > div.left-form > a {
+  display: flex;
+  justify-content: end;
+}
+
+#root > main > div > div > div.right-form > a {
+  display: flex;
+  justify-content: start;
+}
+
+.edit-form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+  gap: 5%;
+}
+
+.left-form,
+.right-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.left-form input {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: 700;
+}
+.right-form input {
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.text-btn-form {
+  background: white;
+  border-color: rgba(121, 89, 237, 0.454);
+  color: rgb(121, 89, 237);
+  cursor: pointer;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 4px;
+  font-weight: 700;
+  border-width: none;
+}
+.edit-form input {
+  color: rgba(128, 128, 128, 0.482);
+  padding-left: 5%;
+  border-color: rgba(168, 167, 167, 0.459);
+  border-radius: 4px;
+}
