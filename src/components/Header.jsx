@@ -15,7 +15,7 @@ const Header = () => {
   const handleLogout = async () => {
     try {
       dispatch(logout());
-      localStorage.removeItem("persistent");
+      localStorage.removeItem("persist");
       navigate("/login");
     } catch (err) {
       console.error(err);
